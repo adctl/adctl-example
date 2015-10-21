@@ -22,7 +22,8 @@ CONFIG += mobility
 MOBILITY = 
 
 android {
-  ANDROID_PACKAGE_SOURCE_DIR = $$PWD/platform/android
+    ANDROID_PACKAGE_SOURCE_DIR = $$PWD/platform/android
+    android:DISTFILES += $$ANDROID_PACKAGE_SOURCE_DIR/AndroidManifest.xml
 }
 
 include(adctl/AdCtl.pri)
