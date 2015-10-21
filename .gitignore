@@ -1,0 +1,7 @@
+.DS_Store
+platform/android/google-play-services_lib/*
+platform/android/libs/*
+platform/android/project.properties
+platform/android/src/com/google/*
+platform/android/src/org/dreamdev/*
+platform/android/src/ru/forsk/*

@@ -1,0 +1,3 @@
+[submodule "adctl"]
+	path = adctl
+	url = https://github.com/kafeg/adctl.git
