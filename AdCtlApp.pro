@@ -26,4 +26,8 @@ android {
     android:DISTFILES += $$ANDROID_PACKAGE_SOURCE_DIR/AndroidManifest.xml
 }
 
+ios {
+    ios:QMAKE_INFO_PLIST = $$PWD/platform/ios/Info.plist
+}
+
 include(adctl/AdCtl.pri)
